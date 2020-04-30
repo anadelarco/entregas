@@ -1,0 +1,171 @@
+body {
+        font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+h1 {   
+
+    }
+
+
+h2 {
+    
+}
+h3.h3-contact{
+    color: rgb(56, 167, 182);
+    font-weight: 300;
+
+}
+
+h3 {
+    
+}
+h4 {
+    font-size: 12px;
+}
+h5 {
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 18px;
+}
+
+p {
+    
+}
+div {
+    width: 80%;
+}
+
+ul{
+    list-style: none;
+    font-size: 9px;
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+
+ul.about {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-right: 0px;
+    text-align: right;
+}
+
+ul.music {
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: right;
+    float: right;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+li.about{
+    display: inline;
+    margin-right: 5px;
+    font-size: 15px;
+
+}
+
+i {
+    font-size: 12px;
+    color: black;
+}
+
+i.fa-twitter {
+
+    margin-left: 20px;
+}
+li{
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+nav.redes-about{
+    float: right;
+    margin-right: 10px;
+}
+
+header {
+ 
+    
+
+}
+header.hea-music{
+    background-image: url(../img/emilia-music-top.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    
+}
+
+a.link-music {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+h2.h2-music {
+    margin-top: 60px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.body-index {
+    position: absolute;
+    margin-left: 50px;
+    background-image: url(../img/emilia-home.jpg);
+    background-position-x: right;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.body-about {
+    height: 100%;
+    position: absolute;
+    margin-left: 50px;
+    background-image: url(../img/emilia-about.jpg);
+    background-position-x: right;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.title-index {
+    font-family: 'Work Sans', sans-serif;
+}
+.h1-index{
+    margin-top: 20%;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.6)
+
+}
+.h1-about{
+        font-size: 40px;
+        margin-top: 15%;
+        margin-bottom: 50px;
+    }
+
+.h3-index {
+    margin-left: 20px;
+    margin-top: 100px;
+    font-family: 'Work Sans', sans-serif;
+}
+h2.about{
+    margin-top: 60px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+h4.about {
+    margin-top:0;
+    font-size: 9px;
+    margin-left: 40px;
+}
+
+.about {
+    color:rgb(28, 135, 150);
+    font-weight: 100 ;
+}

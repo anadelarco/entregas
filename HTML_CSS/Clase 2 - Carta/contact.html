@@ -1,0 +1,47 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+       <meta name = 'viewport' content= 'width-device-width, initial-scale-1.0'>
+       <link rel='stylesheet' href='css/style.css'>
+   
+       <title>Contact</title>
+    </head>
+    <body>
+        <form action='index.html' method="GET">
+            <h3><label for=''>De dónde sos?</label></h3>
+            <select name='departamento' id=''>
+                <option value='s'>seleccione departamento</option>
+                <option value='gc'>Godoy Cruz</option>
+                <option value='lj'>Lujan de Cuyo</option>
+                <option value='mp'>Maipú</option>
+            </select>
+                <h3><label for=''>Qué te parecio la iluminación del ambiente?</label></h3>
+                    <input type='radio' name='iluminacion' value='ma'>Muy acorde</imput><br>
+                    <input type='radio' name='iluminacion' value='bu'>Buena, pero podría mejorar</imput><br>
+                    <input type='radio' name='iluminacion' value='mala'>Mala</imput><br>
+
+                <h3><label for=''>Qué tipo de comida es el que más te gustó?</label></h3>
+                     <input type="checkbox" name='gusto' value='en'> Entrada<br>
+                     <input type="checkbox" name='gusto' value='pp'> Plato Principal<br>
+                     <input type="checkbox" name='gusto' value='po'> Postre<br>
+                     <input type="checkbox" name='gusto' value='ot'> Otro<br>
+
+                <h3><label for=''>Recomendarias el lugar?</label></h3>
+                    <input type='radio' name='recomendarias' value='s'>Si
+                    <input type='radio' name='recomendarias' value='n'>No
+
+                    <h3><label for=''>Por qué?</label></h3>
+                    <textarea name='' id='' cols="" rows=""></textarea>
+
+                <h3>Dejanos tus datos y nos pondremos en contacto con vos</h3>
+                    <label for='nombre'>Nombre: <input type="text" id='nombre' name='nombre' value="Tu nombre"></label>
+                    <br>
+                    <br>
+                    <label for='email'>E-mail: <input type="email" id='email' name='email'value='tu e.mail'></label>
+                    <br>
+                    <br>
+
+                    <input type="submit" value="Enviar" id='botones'> <input type="reset" value="Resetear" id='botones'>
+
+    </form>
+    </body>
